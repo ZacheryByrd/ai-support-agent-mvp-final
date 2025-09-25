@@ -1,3 +1,15 @@
+# AI Support Agent MVP
+
+[![Made with FastAPI](https://img.shields.io/badge/Made%20with-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A production-lean, **multi-agent** customer support service that can:
+- Answer FAQs (retrieval agent)
+- Summarize responses (summarizer agent)
+- Escalate unclear cases (escalation agent)
+- Log **analytics** to SQLite and expose `/metrics` for Prometheus
+
 # AI-Powered Customer Support Agent (MVP)
 
 A production-lean, **multi-agent** customer support service that can:
